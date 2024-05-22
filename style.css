@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+#header {
+    text-align: center;
+}
+
+#header h1 {
+    margin: 0;
+}
+
+hr {
+    margin: 10px ;
+}
+
+main {
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: 40% 60%;
+}
+
+article {
+    
+    padding: 25px;
+}
+
+
+
+#Left{
+    padding: 25px;
+    padding-left: 50px;
+    margin:25px;
+}
+
+#Right{
+    padding: 25px;
+    border-left: 2px solid black;
+    height: 500px;
+}
+li{
+    font-size:13px;
+}
+p{
+    font-size: 14px;
+}
